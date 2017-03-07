@@ -7,6 +7,7 @@ SITENAME = u'xdze2'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['physique/images', 'pdfs']
 
 TIMEZONE = 'Europe/Paris'
 
@@ -41,3 +42,10 @@ MENUITEMS = (
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb.markup']
+IGNORE_FILES = ['.ipynb_checkpoints']
+IPYNB_IGNORE_CSS = True
