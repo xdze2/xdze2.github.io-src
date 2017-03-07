@@ -1,6 +1,4 @@
 body {
-  font-family: monospace;
-  font-size: 105%;
   background-color: white;
   color: black;
   margin:2px;
@@ -22,6 +20,7 @@ h6 a { color: inherit !important }
 #menu ul {
     list-style-type: none;
     padding:1px;
+    font-family: monospace;
 }
 li.active a:link {
     color:red;
@@ -60,9 +59,10 @@ nav#menu ul {
 div#content {
     padding: 0;
     margin-left:200px;
-    min-width: 400px;
-    width:60%;
-    max-width: 700px;
+    
+    max-width: 940px;
+    width:100%;
+
     font-family: serif;
     line-height: 1.5;
 }
