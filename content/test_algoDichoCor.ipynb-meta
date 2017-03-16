@@ -1,7 +1,7 @@
 Title: Tentative algo dicho&Cor
 Slug: dichocor
 Date: 2017-03-03 11:00
-Category: code
-Tags: python statistique
+Category: statistique
+Tags: python
 Author: xdze2
 Summary: Tentative pour identifier les intervalles linéaires, ayant un bon coefficient de corrélation (de Pearson)

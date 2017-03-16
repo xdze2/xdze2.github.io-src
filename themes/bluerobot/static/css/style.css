@@ -22,9 +22,9 @@ h6 a { color: inherit !important }
     padding:1px;
     font-family: monospace;
 }
-li.active a:link {
+li.active> a {
     color:red;
-    background-color: blue;
+    /*background-color: blue;*/
 }
 #side {
     width: 170px;
@@ -132,7 +132,37 @@ div.input pre {
   margin:0px;
 }
 
+ol#post-list {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+ol#post-list>li {
+  border: 1px black solid;
+  /*width: 220px;
+  height: 220px;*/
+  margin: 5px;
+  padding:2px;
+  padding-left: .6em;
 
+}
+ol#post-list>li h2 {
+
+  margin: 0px;
+  padding:0px;
+}
+img.thumbnail {
+  width:150px;
+  height:150px;
+  float: left;
+}
+footer.post-info {
+  margin: 0px;
+  padding:0px;
+  padding-left: 1em;
+}
+
+/*python code highlight*/
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */

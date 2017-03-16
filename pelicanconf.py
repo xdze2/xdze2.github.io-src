@@ -9,11 +9,15 @@ SITEURL = ''
 PATH = 'content'
 STATIC_PATHS = ['physique/images', 'pdfs']
 
-TIMEZONE = 'Europe/Paris'
+USE_FOLDER_AS_CATEGORY = True
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = True
 
-DEFAULT_LANG = u'fr'
+DEFAULT_DATE = 'fs' # filesystem
 
 THEME = 'themes/bluerobot'
+TIMEZONE = 'Europe/Paris'
+DEFAULT_LANG = u'fr'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -35,9 +39,10 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = False
 
 MENUITEMS = (
-    ('projets', '/pages/projets.html'),
-    ('blog', '/pages/publications.html'),
-    ('about', '/pages/about.html'),
+    # ('all', '/'),
+    # ('projets', '/pages/projets.html'),
+    # ('blog', '/pages/publications.html'),
+    # ('about', '/pages/about.html'),
 )
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -45,7 +50,9 @@ MENUITEMS = (
 
 MARKUP = ('md', 'ipynb')
 
+
+
 PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb.markup']
+PLUGINS = ['ipynb.markup' ] #, "representative_image"]
 IGNORE_FILES = ['.ipynb_checkpoints']
 IPYNB_IGNORE_CSS = True
