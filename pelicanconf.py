@@ -50,10 +50,11 @@ MENUITEMS = (
 #RELATIVE_URLS = True
 
 MARKUP = ('md', 'ipynb', 'rst')
-
-
-
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup' ] #, "representative_image"]
+
+
+# Config de Ipynb plugin - https://github.com/danielfrg/pelican-ipynb
+IPYNB_USE_META_SUMMARY = True
 IGNORE_FILES = ['.ipynb_checkpoints']
 IPYNB_IGNORE_CSS = True

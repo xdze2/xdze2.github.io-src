@@ -1,4 +1,7 @@
 {% extends "index.html" %}
+
 {% block content_title %}
-<h2>> {{ category }}</h2>
+<h1 class='postlist_title'> <img src="{{ SITEURL }}/theme/images/folder24.png"    />
+  {{ category|capitalize }}
+</h1>
 {% endblock %}
