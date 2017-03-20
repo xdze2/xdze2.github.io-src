@@ -17,6 +17,10 @@ h4 a { color: inherit !important }
 h5 a { color: inherit !important }
 h6 a { color: inherit !important }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px; padding: 0px;
+}
+
 /*  Structure  */
 #side, #content {
   display: inline-block;
@@ -28,7 +32,7 @@ h6 a { color: inherit !important }
 #content {
   max-width: 700px;
   width:90%;
-  margin-left: 50px;
+  margin-left: 45px;
   margin-top: 40px;
 }
 
@@ -65,11 +69,10 @@ h6 a { color: inherit !important }
 /* Content Page */
 #content {
     font-family: serif;
-    /*line-height: 1.8;*/
 }
 
 /* Content post-list (index) */
-.postlist_title {
+#postlist h1 {
   margin:0;
   padding:0;
   margin-left:.6em;
@@ -101,16 +104,41 @@ h6 a { color: inherit !important }
   margin: 0;
   padding: 0;
 }
-.hentry .summary_date {
+
+.summary_date {
+  padding-right: 1.1em;
   font-size: 84%;
   font-weight: bold;
   font-family: monospace;
-  padding-right: 1.1em;
 }
 
 /* Content Article */
-.article_body {
-  line-height: 1.6;
+#article header {
+  margin-bottom: 1.5em;
+}
+#article header h1 {
+  font-family: sans-serif;
+  font-size: 98%;
+}
+
+#article header span, #article header a {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.1;
+  margin-right: 6px;
+}
+#article header>img {
+  margin-right: 6px;
+}
+.article-content {
+  font-size: 104%;
+  line-height: 1.5;
+}
+.article-content pre {
+  width:80%;
+  padding:.3em;
+  padding-left: 4em;
+  background-color: #EEE;
 }
 
 

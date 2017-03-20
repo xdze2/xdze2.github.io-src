@@ -12,40 +12,29 @@
 {% endblock %}
 
 {% block content %}
-<section id="contentsection" class="article_body">
+<section id="article">
+
   <header>
-    <h2 class="entry-title">
-      <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-         title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
- {% import 'translations.html' as translations with context %}
- {{ translations.translations_for(article) }}
- <abbr class="published" title="{{ article.date.isoformat() }}">
-   {{ article.locale_date }}
- </abbr>
+      <img src="{{ SITEURL }}/theme/images/doc22.png"    />
+      <span>
+      <h1 class="entry-title">{{ article.title }}</h2>
+      <span class='summary_date' title="{{ article.date.isoformat() }}">
+        {{ article.date|strftime('%B %Y') }}
+      </span>
+      <span class='summary_date' >
+        {{ article.category|capitalize }}
+      </span>
+      <a href='{{ article.source_path }}' class='summary_date'>src</a>
+  </span>
   </header>
 
-  <div class="entry-content">
+
+
+  <div class="article-content">
     {{ article.content }}
   </div><!-- /.entry-content -->
 
-  <footer class="post-info">
-    {% if article.authors %}
-    <address class="vcard author">
-      {% for author in article.authors %}
-          <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-        {% endfor %}
-    </address>
-    {% endif %}
-    <abbr class="published" title="{{ article.date.isoformat() }}">
-      {{ article.locale_date }}
-    </abbr>
-  {% if article.modified %}
-    <abbr class="modified" title="{{ article.modified.isoformat() }}">
-      {{ article.locale_modified }}
-    </abbr>
-  {% endif %}
 
-  </footer><!-- /.post-info -->
 
 </section>
 {% endblock %}

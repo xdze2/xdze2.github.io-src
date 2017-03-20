@@ -1,11 +1,13 @@
 {% extends "base.html" %}
+
 {% block content %}
-<section id="contentsection">
-{% block content_title %}
-<h1 class='postlist_title'> <img src="{{ SITEURL }}/theme/images/folder24.png" />
+<section id="postlist">
+
+<h1> {% block content_title %}
+  <img src="{{ SITEURL }}/theme/images/folder24.png" />
   All
-</h1>
-{% endblock %}
+{% endblock %} </h1>
+
 
 
 {% for article in articles_page.object_list %}
