@@ -32,9 +32,9 @@
         {% endblock head %}
 </head>
 
-<body id="index" class="home">
+<body>
         <div id="side">
-            <header id="banner" class="body">
+            <header id="banner" >
                     <img src="{{ SITEURL }}/theme/images/header.png" />
                     <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
             </header><!-- /#banner -->
@@ -59,8 +59,8 @@
             {% block content %}
             {% endblock %}
         </div>
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
+        <footer id="sitefooter">
+                <address id="about">
                 Proudly powered by <a href="http://getpelican.com/">Pelican</a>.
                 </address><!-- /#about -->
         </footer><!-- /#contentinfo -->

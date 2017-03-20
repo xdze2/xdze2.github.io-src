@@ -17,23 +17,24 @@ h4 a { color: inherit !important }
 h5 a { color: inherit !important }
 h6 a { color: inherit !important }
 
-/*  Menu & Banner */
-#menu ul {
-    list-style-type: none;
-    padding:1px;
-    font-family: monospace;
-}
-li.active> a {
-    color:red;
-    font-weight: bold;
+/*  Structure  */
+#side, #content {
+  display: inline-block;
+  vertical-align: top;
 }
 #side {
     width: 170px;
-    margin-right:10px;
-    float:left;
 }
-#banner {
-    text-align:left;
+#content {
+  max-width: 700px;
+  width:90%;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+/* Banner & Menu */
+#banner img {
+	/*max-width: 170px;*/
 }
 #banner h1, #menu {
     margin:0;
@@ -41,35 +42,33 @@ li.active> a {
     padding-left: 22px;
 }
 #banner h1 {
-    font-family: monospace;
     padding-top:20px;
     padding-bottom:8px;
 
+    font-family: monospace;
     font-size:18px;
     font-weight:normal;
 }
-#banner img {
-	max-width: 170px;
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;  margin: 0;
+    padding:1px;
+    font-family: monospace;
 }
-nav#menu ul {
-  padding: 0;
-  margin: 0;
+#menu li.active a {
+    color:red;
+    font-weight: bold;
 }
 
-/*Content Page*/
-div#content {
-    padding: 0;
-    margin-left:205px;
-    margin-top:50px;
 
-    max-width: 770px;
-    width:90%;
-
+/* Content Page */
+#content {
     font-family: serif;
     /*line-height: 1.8;*/
 }
 
-/*post-list*/
+/* Content post-list (index) */
 .postlist_title {
   margin:0;
   padding:0;
@@ -109,8 +108,14 @@ div#content {
   padding-right: 1.1em;
 }
 
+/* Content Article */
+.article_body {
+  line-height: 1.6;
+}
+
+
 /* Page footer */
-footer#contentinfo {
+#sitefooter {
     text-align:left;
     margin-top:30px;
     position: absolute;
