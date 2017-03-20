@@ -4,7 +4,7 @@ Est-ce que c'est un article ?
 :date: 2016-10-03 10:20
 :category: yeah
 :slug: my-super-post2
-:summary: hi!
+:summary: hi! Test pour un article de texte.
 
 
 These are just a few of the commands available by default, so feel free to explore fabfile.py and see what other commands are available. More importantly, don’t hesitate to customize fabfile.py to suit your specific needs and preferences.
