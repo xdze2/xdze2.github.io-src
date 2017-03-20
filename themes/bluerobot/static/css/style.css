@@ -69,6 +69,10 @@ div#content {
 #post-list {
     margin-bottom: 1em;
     margin-top: 1em;
+    
+    -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
 }
 
 pre {

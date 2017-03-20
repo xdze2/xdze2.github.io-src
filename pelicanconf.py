@@ -12,6 +12,7 @@ STATIC_PATHS = ['physique/images', 'pdfs']
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_TAGS_ON_MENU = True
 
 DEFAULT_DATE = 'fs' # filesystem
 
@@ -48,7 +49,7 @@ MENUITEMS = (
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-MARKUP = ('md', 'ipynb')
+MARKUP = ('md', 'ipynb', 'rst')
 
 
 
