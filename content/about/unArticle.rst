@@ -2,7 +2,7 @@ Est-ce que c'est un article ?
 #############################
 
 :date: 2016-10-03 10:20
-:category: yeah
+:category: about
 :slug: my-super-post2
 :summary: hi! Test pour un article de texte.
 
