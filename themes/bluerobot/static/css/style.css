@@ -37,9 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Banner & Menu */
-#banner img {
-	/*max-width: 170px;*/
-}
+
 #banner h1, #menu {
     margin:0;
     padding: 0;
@@ -66,12 +64,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Content Page */
+/* -- Content Page -- */
 #content {
     font-family: serif;
 }
 
-/* Content post-list (index) */
+/* -- Content post-list (index) -- */
+#postlist>div {
+  width: 100%; display: block;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}
 #postlist h1 {
   margin:0;
   padding:0;
@@ -80,6 +84,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: monospace;
   font-size: 15px;
+}
+#postlist article {
+  display: inline-block;
+  /*width: 30%;*/
+  width: 100%;
+  padding:3px;
+  border: 1px solid grey;
+  vertical-align: top;
+  margin-bottom:8px;
 }
 
 .hentry {
@@ -112,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: monospace;
 }
 
-/* Content Article */
+/* -- Content Article -- */
 #article header {
   margin-bottom: 1.5em;
 }
