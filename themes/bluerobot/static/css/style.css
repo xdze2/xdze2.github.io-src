@@ -147,14 +147,31 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 104%;
   line-height: 1.5;
 }
+
+/*  Code ipynb  */
 .article-content pre {
-  width:80%;
-  padding:.3em;
-  padding-left: 4em;
-  background-color: #EEE;
+  padding:6px;
+  padding-left:12px;
+  border-radius: 6px;
+
+  margin-top: .4em;
+  margin-bottom: .4em;
 }
-
-
+.prompt, .anchor-link {
+  display: none;
+}
+.cell p {
+  margin:0;
+}
+.output_subarea pre {
+  white-space: pre-wrap;
+  -moz-white-space: pre-wrap;
+  -o-white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.output {
+  margin-bottom: 1.2em;
+}
 /* Page footer */
 #sitefooter {
     text-align:left;
