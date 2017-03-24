@@ -1,3 +1,10 @@
+
+/* Bluerobot colors
+orange #f66300
+blue #66a4d5
+dark blue 00156b
+green 00bf66*/
+
 body {
   background-color: white;
   color: black;
@@ -102,9 +109,11 @@ h1, h2, h3, h4, h5, h6 {
   color: black
 }
 .hentry a:hover {
-  color: red;
-  background-color: #330000;
+  color: #FA1107;
   text-decoration: none;
+}
+#postlist article:hover {
+  border: 1px solid #FA1107;
 }
 .hentry h2 {
   margin:0;
