@@ -20,10 +20,12 @@ Statistical Inference
 
 [Statistical Inference - George Casella, Roger L. Berger - Duxbury Press (2001).pdf](http://people.unica.it/musio/files/2008/10/Casella-Berger.pdf)
 
-[Statistique Inf ́erentielle Avancée - Imag](http://www-ljk.imag.fr/membres/Olivier.Gaudoin/SIA.pdf)
+
+
+[Statistique Inferentielle Avancée - Imag](http://www-ljk.imag.fr/membres/Olivier.Gaudoin/SIA.pdf)
 
 [Introduction à la statistique inférentielle](http://www.biostat.envt.fr/spip/IMG/pdf/cours1.pdf)
-
+Didier Concordet, Unité de Biometrie, Ecole Veterinaire de Toulouse
 
 [Book econometrics - Moder Approach 5th](http://economics.ut.ac.ir/documents/3030266/14100645/Jeffrey_M._Wooldridge_Introductory_Econometrics_A_Modern_Approach__2012.pdf)
 
