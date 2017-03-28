@@ -59,6 +59,7 @@ PLUGIN_PATHS = ('./plugins', )
 PLUGINS = ['liquid_tags.notebook']
 
 NOTEBOOK_DIR = ''
+EXTRA_HEADER = open('my_nb_header.html').read()#.decode('utf-8')
 
 # Config de Ipynb plugin - https://github.com/danielfrg/pelican-ipynb
 #IPYNB_USE_META_SUMMARY = True
