@@ -5,3 +5,5 @@ Category: physique
 Tags: python, physique
 Author: xdze2
 Summary: Tentative
+
+{% notebook physique/story.ipynb %}
