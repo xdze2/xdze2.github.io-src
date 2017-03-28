@@ -58,6 +58,7 @@ MARKUP = ('md','rst',)
 PLUGIN_PATHS = ('./plugins', )
 PLUGINS = ['liquid_tags.notebook']
 
+NOTEBOOK_DIR = ''
 
 # Config de Ipynb plugin - https://github.com/danielfrg/pelican-ipynb
 #IPYNB_USE_META_SUMMARY = True
