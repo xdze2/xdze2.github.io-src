@@ -11,4 +11,6 @@ Summary: comment donc ce site fonctionne ?
 - [Pelican]( http://docs.getpelican.com/en/stable/ )
 - plugin [Liquid Tags](https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags)
 
+- [Markdown](https://daringfireball.net/projects/markdown/syntax)
+
 - Git & Github
