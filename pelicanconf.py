@@ -2,23 +2,15 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'xdze2'
-SITENAME = u'xdze2'
+AUTHOR = 'xdze'
+SITENAME = 'xdze2'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['physique/images', 'pdfs']
 
-USE_FOLDER_AS_CATEGORY = True
-DISPLAY_PAGES_ON_MENU = False
-DISPLAY_CATEGORIES_ON_MENU = True
-DISPLAY_TAGS_ON_MENU = True
-
-DEFAULT_DATE = 'fs' # filesystem
-
-THEME = 'themes/bluerobot'
 TIMEZONE = 'Europe/Paris'
-DEFAULT_LANG = u'fr'
+
+DEFAULT_LANG = 'fr'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -26,6 +18,13 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+USE_FOLDER_AS_CATEGORY = True
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_TAGS_ON_MENU = True
+
+DEFAULT_DATE = 'fs' # from the filesystem
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -39,22 +38,17 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = False
 
-MENUITEMS = (
-    # ('all', '/'),
-    # ('projets', '/pages/projets.html'),
-    # ('blog', '/pages/publications.html'),
-    # ('about', '/pages/about.html'),
-)
-
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-MARKUP = ('md', 'ipynb', 'rst')
-PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb.markup' ] #, "representative_image"]
+
+PLUGIN_PATHS = ('./plugins/', )
+PLUGINS = ['liquid_tags.notebook']
+NOTEBOOK_DIR = './'
 
 
-# Config de Ipynb plugin - https://github.com/danielfrg/pelican-ipynb
-IPYNB_USE_META_SUMMARY = True
-IGNORE_FILES = ['.ipynb_checkpoints']
-IPYNB_IGNORE_CSS = True
+THEME = 'themes/bluerobot'
+
+EXTRA_HEADER = open('my_nb_header.html').read()#.decode('utf-8')
+
+SUMMARY_MAX_LENGTH = 4
