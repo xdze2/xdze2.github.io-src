@@ -1,0 +1,9 @@
+Title: Seasonality in timeseries
+Slug: Seasonality
+Category: statistiques
+Tags: python
+Author: xdze2
+Summary: Utilisation de l'autocorrélation pour la détection de la période d'une série temporelle, puis d'en déduire les variations saisonières.
+
+
+{% notebook statistiques/Timeseries-Seasonality.ipynb %}
