@@ -724,11 +724,16 @@ div.output_unrecognized a:hover {
 .rendered_html u {
   text-decoration: underline;
 }
-.rendered_html :link {
+.rendered_html a:link {
+  /*text-decoration: underline;*/
+  color:blue;
+}
+.rendered_html a:hover {
   text-decoration: underline;
 }
-.rendered_html :visited {
-  text-decoration: underline;
+.rendered_html a:visited {
+  /*text-decoration: underline;*/
+  color: #330099;
 }
 .rendered_html h1 {
   font-size: 185.7%;
