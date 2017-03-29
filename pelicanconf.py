@@ -7,7 +7,7 @@ SITENAME = u'xdze2'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['physique/images', 'pdfs']
+STATIC_PATHS = ['physique/images']
 
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU = False
@@ -56,12 +56,12 @@ MENUITEMS = (
 MARKUP = ('md','rst',)
 
 PLUGIN_PATHS = ('./plugins', )
-PLUGINS = ['liquid_tags.notebook']
+PLUGINS = ['liquid_tags.notebook', 'representative_image' ]
 
 NOTEBOOK_DIR = ''
 EXTRA_HEADER = open('my_nb_header.html').read()#.decode('utf-8')
 
 # Config de Ipynb plugin - https://github.com/danielfrg/pelican-ipynb
 #IPYNB_USE_META_SUMMARY = True
-#IGNORE_FILES = ['.ipynb_checkpoints']
+IGNORE_FILES = ['.ipynb_checkpoints']
 #IPYNB_IGNORE_CSS = True

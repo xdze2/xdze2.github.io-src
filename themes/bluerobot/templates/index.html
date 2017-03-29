@@ -16,14 +16,15 @@
   <a href="{{ SITEURL }}/{{ article.url }}"
         rel="bookmark" title="Permalink to {{ article.title|striptags }}">
 
-          <!-- {% if  article.featured_image %}
+          {% if  article.featured_image %}
               <img src="{{ article.featured_image }}" class="thumbnail">
-          {% endif %} -->
+          {% endif %}
 
           <h2 class="entry-title">{{ article.title }}</h2>
 
          <p>
            <span class='summary_date'>{{ article.date|strftime('%B %Y') }}</span>
+           <span class='summary_date'>{{ article.category }}</span>
            {{ article.summary|striptags }}
          </p>
 

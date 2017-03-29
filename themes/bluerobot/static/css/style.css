@@ -128,12 +128,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .summary_date {
-  padding-right: 1.1em;
+  padding-right: 0.9em;
   font-size: 84%;
   font-weight: bold;
   font-family: monospace;
 }
 
+.thumbnail {
+  width:100%;
+}
 /* -- Content Article -- */
 #article header {
   margin-bottom: 1.5em;
