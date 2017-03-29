@@ -1,38 +1,38 @@
 {% extends "base.html" %}
 
+
 {% block content %}
 <section id="postlist">
 
-<h1> {% block content_title %}
-  <img src="{{ SITEURL }}/theme/images/folder24.png" />
-  All
-{% endblock %} </h1>
+<h1>
+{% block content_title %}
+  <img src="{{ SITEURL }}/theme/images/folder24.png" /> All
+{% endblock %}
+</h1>
 
-
-<div>
+<div class='articles-list'> {# pour les colonnes #}
 {% for article in articles_page.object_list %}
 
-<article class="hentry">
-  <a href="{{ SITEURL }}/{{ article.url }}"
-        rel="bookmark" title="Permalink to {{ article.title|striptags }}">
+<article>
+<a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
 
-          {% if  article.featured_image %}
-              <img src="{{ article.featured_image }}" class="thumbnail">
-          {% endif %}
+      {% if  article.featured_image %}
+          <img src="{{ article.featured_image }}" class="thumbnail">
+      {% endif %}
 
-          <h2 class="entry-title">{{ article.title }}</h2>
+      <h2 class="entry-title">{{ article.title }}</h2>
 
-         <p>
-           <span class='summary_date'>{{ article.date|strftime('%B %Y') }}</span>
-           <span class='summary_date'>{{ article.category }}</span>
-           {{ article.summary|striptags }}
-         </p>
-
-
-  </a>
+       <p>
+         <span class='summary_date'>{{ article.date|strftime('%B %Y') }}</span>
+         <span class='summary_date'>{{ article.category }}</span>
+         {{ article.summary|striptags }}
+       </p>
+</a>
 </article>
-<div>
+
 {% endfor %}
+</div>
+
 
 
 {% if articles_page.has_other_pages() %}
