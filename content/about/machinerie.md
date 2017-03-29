@@ -14,3 +14,5 @@ Summary: comment donc ce site fonctionne ?
 - [Markdown](https://daringfireball.net/projects/markdown/syntax)
 
 - Git & Github
+
+- Latex ([symbols](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html))
