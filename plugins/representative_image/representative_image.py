@@ -11,7 +11,7 @@ def images_extraction(instance):
         if 'image' in instance.metadata:
             representativeImage = instance.metadata['image']
 
-        # Modif ... pour avoir une image que si demandée
+        # Modif ... pour avoir une image que si demandee
         #
         # # Process Summary:
         # # If summary contains images, extract one to be the representativeImage and remove images from summary
