@@ -118,6 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 .hentry h2 {
   margin:0;
   padding:0;
+  margin-top: 4px;
   font-family: sans-serif;
   font-size: 97%;
   line-height: 90%;
@@ -133,9 +134,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   font-family: monospace;
 }
-
 .thumbnail {
   width:100%;
+  opacity: 0.8;
+}
+.thumbnail:hover {
+  opacity: 1;
 }
 /* -- Content Article -- */
 #article header {

@@ -7,7 +7,7 @@ SITENAME = u'xdze2'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['physique/images']
+STATIC_PATHS = ['physique/images', 'statistiques/images']
 
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU = False
