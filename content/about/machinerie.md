@@ -3,7 +3,8 @@ Category: about
 Tags: dev
 Slug: machinerie
 Authors: xdze
-Summary: comment donc ce site fonctionne ?
+Date: 20/03/2017
+Summary: comment ce site fonctionne ?
 
 - Python 3
 - Jupyter Notebook
