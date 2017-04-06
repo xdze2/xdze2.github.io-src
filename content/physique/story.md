@@ -5,6 +5,6 @@ Category: physique
 Tags: python, physique
 Author: xdze2
 Summary: Tentative
-Image: /physique/images/rouletabille.jpg
+Image: physique/images/rouletabille.jpg
 
 {% notebook physique/story.ipynb %}
