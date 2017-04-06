@@ -32,9 +32,8 @@
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/notebook.css" />
         {% endblock head %}
 
-        {% if EXTRA_HEADER %}
-            {{ EXTRA_HEADER }}
-        {% endif %}
+       {% include 'javascript.html' %}
+
 </head>
 
 <body>
