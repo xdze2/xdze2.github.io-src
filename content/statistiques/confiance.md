@@ -1,4 +1,4 @@
-Title: Interval de confiance
+Title: Intervalle de confiance
 Slug: confiance
 Date: 06 april 2017 16:00
 Category: statistiques
