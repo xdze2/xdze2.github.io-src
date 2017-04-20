@@ -1,6 +1,6 @@
 Title: Livres et cours de statistiques
 Category: statistiques
-Tags: algorithm
+Tags: statistiques
 Slug: livres2stats
 Authors: xdze
 Summary: Liens et references trouvées sur les statistiques.

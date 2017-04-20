@@ -1,6 +1,5 @@
 Title: Markdown example
-Category: about
-Tags: dev
+Tags: à propos
 Slug: markdownexample
 Authors: xdze
 Summary: Page pour tester la mise en forme du MarkDown.

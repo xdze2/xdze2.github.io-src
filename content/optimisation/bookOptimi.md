@@ -1,6 +1,5 @@
 Title: Numerical Optimization
-Category: optimization
-Tags: algorithm
+Tags: algorithme, optimisation
 Slug: bookNumOptimi
 Authors: xdze
 Summary: Notes de lecture du livre "Numerical Optimization" de Jorge Nocedal et Stephen J. Wright.

@@ -1,10 +1,9 @@
 Title: La machinerie
-Category: about
-Tags: dev
+Tags: à propos
 Slug: machinerie
 Authors: xdze
 Date: 20/03/2017
-Summary: comment ce site fonctionne ?
+Summary: Comment le site fonctionne ?
 
 - Python 3
 - Jupyter Notebook

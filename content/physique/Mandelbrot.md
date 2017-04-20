@@ -1,12 +1,12 @@
 Title: Deep Zoom Image et Mandelbrot
 Slug: Mandelbrot
 Category: physique
-Tags: physique, code, fractal
+Tags: physique, fractale, algorithme, visualisation
 Author: xdze2
 Date: 2017-03-31 23:00
 Summary: Calcul d'une pyramide d'images, pour créer une vue interactive zoomable de l'ensemble fractal de Mandelbrot.
 Image: physique/images/mandelbrot.png
-
+Status: Published
 
 <div id="openseadragon1" style="width: 100%; height: 500px; cursor:all-scroll; background-color:black;border:solid 1px black;"></div>
 
@@ -22,5 +22,3 @@ Image: physique/images/mandelbrot.png
 
 
 {% notebook physique/Mandelbrot.ipynb %}
-
-
