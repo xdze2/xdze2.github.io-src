@@ -24,7 +24,7 @@
 
       {% for tag in article.tags %}
         <span class='summary_date' >
-          <a href='{{ SITEURL }}/tag/{{ tag }}.html'> {{ tag|capitalize }} </a>
+          <a href='{{ tag.url }}'> {{ tag.name|capitalize }} </a>
         </span>
       {% endfor %}
 

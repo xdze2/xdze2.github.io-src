@@ -56,23 +56,30 @@
               {% endif %}
             {% endif %}
             {% if DISPLAY_TAGS_ON_MENU %}
+              <img src="{{ SITEURL }}/theme/images/tag_icon.png"   />
               {% for mtag, null in tags %}
                 <li {% if mtag == tag %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ mtag.url }}">{{ mtag }}</a></li>
               {% endfor %}
             {% endif %}
+
+            <img src="{{ SITEURL }}/theme/images/tag_icon.png"   />
+            {% for mtag in MENUTAGS %}
+                <li {% if mtag == tag %} class="active"{% endif %}><a href="{{ SITEURL }}/tag/{{ mtag }}.html">{{ mtag }}</a></li>
+            {% endfor %}
+
             {% for title, link in MENUITEMS %}
                 <li><a href="{{ link }}">{{ title }}</a></li>
             {% endfor %}
-            </ul></nav><!-- /#menu -->
+            </ul>
+            <p>
+              <a href='#'><img src="{{ SITEURL }}/theme/images/mail.png"   /></a>
+            </p>
+          </nav><!-- /#menu -->
         </div>
         <div id="content">
             {% block content %}
             {% endblock %}
         </div>
-        <footer id="sitefooter">
-                <address id="about">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
+
 </body>
 </html>

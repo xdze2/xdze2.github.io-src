@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #banner h1 {
     padding-top:20px;
-    padding-bottom:8px;
+    margin-bottom:18px;
 
     font-family: monospace;
     font-size:18px;
@@ -78,14 +78,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* -- Content post-list (index.html) -- */
-#postlist h1 {
+#postlist h1, #tagslist h1 {
   margin:0;
   padding:0;
   margin-left:.6em;
   margin-bottom: 1em;
   font-weight: normal;
   font-family: monospace;
-  font-size: 15px;
+  font-size: 18px;
 }
 div.articles-list {
   width: 100%; display: block;
@@ -227,4 +227,15 @@ div.articles-list {
     bottom: 10px;
     font-size: 80%;
     width: 170px;
+}
+
+/* Tag page */
+
+#tagslist ul {
+  list-style-type: none;
+
+}
+#tagslist li {
+  padding: 3px;
+  display: inline-block;
 }

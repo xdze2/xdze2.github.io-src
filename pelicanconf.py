@@ -12,7 +12,7 @@ STATIC_PATHS = ['physique/images', 'statistiques/images', 'static', 'images']
 USE_FOLDER_AS_CATEGORY = False
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
-DISPLAY_TAGS_ON_MENU = True
+DISPLAY_TAGS_ON_MENU = False
 
 DEFAULT_DATE = 'fs' # filesystem
 
@@ -43,12 +43,16 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = False
 
+MENUTAGS = (
+    'physique', 'statistiques', 'visualisation', 'algorithme'
+)
 MENUITEMS = (
     # ('all', '/'),
     # ('projets', '/pages/projets.html'),
     # ('blog', '/pages/publications.html'),
      ('[...]', '/tags.html'),
 )
+
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
