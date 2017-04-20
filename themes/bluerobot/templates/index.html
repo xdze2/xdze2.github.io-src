@@ -21,12 +21,17 @@
       {% endif %}
 
       <h2 class="entry-title">{{ article.title }}</h2>
-
+      <p class='tag'>
+        <!-- <span class='summary_date'>{{ article.date|strftime('%B %Y') }}</span> -->
+        <!-- <span class='summary_date'>{{ article.category }}</span> -->
+        {% for tag in article.tags %}
+           <span>{{ tag }}{% if not loop.last %}, {% endif %}</span>
+        {% endfor %}
        <p>
-         <span class='summary_date'>{{ article.date|strftime('%B %Y') }}</span>
-         <span class='summary_date'>{{ article.category }}</span>
+       <p class='summary'>
          {{ article.summary|striptags }}
        </p>
+
 </a>
 </article>
 

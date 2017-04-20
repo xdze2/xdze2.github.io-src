@@ -7,11 +7,11 @@ SITENAME = u'xdze2'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['physique/images', 'statistiques/images', 'static']
+STATIC_PATHS = ['physique/images', 'statistiques/images', 'static', 'images']
 
-USE_FOLDER_AS_CATEGORY = True
+USE_FOLDER_AS_CATEGORY = False
 DISPLAY_PAGES_ON_MENU = False
-DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_TAGS_ON_MENU = True
 
 DEFAULT_DATE = 'fs' # filesystem
@@ -33,6 +33,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
 
+DEFAULT_METADATA = {
+    'tags': 'draft',
+}
+
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
@@ -43,7 +47,7 @@ MENUITEMS = (
     # ('all', '/'),
     # ('projets', '/pages/projets.html'),
     # ('blog', '/pages/publications.html'),
-    # ('about', '/pages/about.html'),
+     ('[...]', '/tags.html'),
 )
 
 # Uncomment following line if you want document-relative URLs when developing

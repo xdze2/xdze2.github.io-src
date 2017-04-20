@@ -21,10 +21,13 @@
       <span class='summary_date' title="{{ article.date.isoformat() }}">
         {{ article.date|strftime('%B %Y') }}
       </span>
-      <span class='summary_date' >
-        {{ article.category|capitalize }}
-      </span>
-      <a href='{{ article.source_path }}' class='summary_date'>src</a>
+
+      {% for tag in article.tags %}
+        <span class='summary_date' >
+          <a href='{{ SITEURL }}/tag/{{ tag }}.html'> {{ tag|capitalize }} </a>
+        </span>
+      {% endfor %}
+
   </span>
   </header>
 

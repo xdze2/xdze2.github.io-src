@@ -43,9 +43,7 @@
                     <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
             </header><!-- /#banner -->
             <nav id="menu"><ul>
-            {% for title, link in MENUITEMS %}
-                <li><a href="{{ link }}">{{ title }}</a></li>
-            {% endfor %}
+
             {% if DISPLAY_PAGES_ON_MENU %}
               {% for p in pages %}
                 <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
@@ -57,6 +55,14 @@
                 {% endfor %}
               {% endif %}
             {% endif %}
+            {% if DISPLAY_TAGS_ON_MENU %}
+              {% for mtag, null in tags %}
+                <li {% if mtag == tag %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ mtag.url }}">{{ mtag }}</a></li>
+              {% endfor %}
+            {% endif %}
+            {% for title, link in MENUITEMS %}
+                <li><a href="{{ link }}">{{ title }}</a></li>
+            {% endfor %}
             </ul></nav><!-- /#menu -->
         </div>
         <div id="content">
