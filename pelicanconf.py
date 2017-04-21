@@ -50,7 +50,7 @@ MENUITEMS = (
     # ('all', '/'),
     # ('projets', '/pages/projets.html'),
     # ('blog', '/pages/publications.html'),
-     ('[...]', '/tags.html'),
+     ('[plus]', '/tags.html'),
 )
 
 

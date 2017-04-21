@@ -61,7 +61,7 @@
                 <li {% if mtag == tag %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ mtag.url }}">{{ mtag }}</a></li>
               {% endfor %}
             {% endif %}
-
+            
             <img src="{{ SITEURL }}/theme/images/tag_icon.png"   />
             {% for mtag in MENUTAGS %}
                 <li {% if mtag == tag %} class="active"{% endif %}><a href="{{ SITEURL }}/tag/{{ mtag }}.html">{{ mtag }}</a></li>

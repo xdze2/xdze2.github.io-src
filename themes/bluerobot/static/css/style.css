@@ -159,17 +159,30 @@ div.articles-list {
   font-family: monospace;
 }
 .articles-list .tag span {
-  padding-right: 0.1em;
+  padding-right: 0.01em;
 }
 
 .summary_date, .summary_date>a {
-  padding-right: 0.9em;
   font-size: 84%;
   font-weight: bold;
   font-family: monospace;
   text-decoration: none;
 }
-.summary_date>a:hover {
+
+.summary_tag {
+  font-size: 84%;
+  font-family: monospace;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+.summary_tag a {
+  text-decoration: none;
+  color: black;
+  display: inline;
+  padding: 0;
+}
+.summary_tag>a:hover {
   color: blue;
 }
 /* -- Content Article -- */

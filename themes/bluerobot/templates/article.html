@@ -17,15 +17,13 @@
   <header>
       <img src="{{ SITEURL }}/theme/images/doc22.png"    />
       <span>
-      <h1 class="entry-title">{{ article.title }}</h2>
+      <h1 class="entry-title">{{ article.title }}</h1>
       <span class='summary_date' title="{{ article.date.isoformat() }}">
         {{ article.date|strftime('%B %Y') }}
       </span>
 
       {% for tag in article.tags %}
-        <span class='summary_date' >
-          <a href='{{ tag.url }}'> {{ tag.name|capitalize }} </a>
-        </span>
+        <span class='summary_tag'><a href='{{ tag.url }}'>{{ tag.name }}{% if not loop.last %}, {% endif %}</a></span>
       {% endfor %}
 
   </span>
