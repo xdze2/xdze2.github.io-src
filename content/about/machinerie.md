@@ -3,7 +3,7 @@ Tags: à propos
 Slug: machinerie
 Authors: xdze
 Date: 20/03/2017
-Summary: Comment le site fonctionne ?
+Summary: Liste des logiciels, modules et services utilisés pour le site.
 
 - Python 3
 - Jupyter Notebook

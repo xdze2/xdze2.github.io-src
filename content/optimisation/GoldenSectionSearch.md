@@ -1,7 +1,8 @@
 Title: Golden Section Search
-Tags: algorithme, optimisation
+Tags: algorithme, optimisation, ébauche
 Slug: goldsearch
 Authors: xdze
-Summary: Algorithme de recherche de minimum 1d
+Date: 2017-03-01
+Summary: Algorithme de recherche du minimum (1d)
 
 {% notebook optimisation/GoldenSectionSearch.ipynb %}

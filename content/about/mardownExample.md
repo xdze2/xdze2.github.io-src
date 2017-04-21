@@ -2,6 +2,7 @@ Title: Markdown example
 Tags: à propos
 Slug: markdownexample
 Authors: xdze
+Date: 2017-02-20
 Summary: Page pour tester la mise en forme du MarkDown.
 
 
