@@ -3,6 +3,7 @@ Category: statistiques
 Tags: statistiques
 Slug: livres2stats
 Authors: xdze
+Date: 2017-03-09
 Summary: Liens et references trouvées sur les statistiques.
 
 
