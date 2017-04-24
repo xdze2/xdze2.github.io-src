@@ -1,6 +1,6 @@
 Title: Livres et cours de statistiques
 Category: statistiques
-Tags: statistiques
+Tags: statistiques, ébauche
 Slug: livres2stats
 Authors: xdze
 Date: 2017-03-09

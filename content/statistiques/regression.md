@@ -1,4 +1,4 @@
-Title: Regression
+Title: Régression
 Slug: regression
 Tags: statistiques
 Author: xdze2
