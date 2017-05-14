@@ -1,5 +1,5 @@
 Title: Golden Section Search
-Tags: algorithme, optimisation, ébauche
+Tags: algorithme, optimisation
 Slug: goldsearch
 Authors: xdze
 Date: 2017-03-01

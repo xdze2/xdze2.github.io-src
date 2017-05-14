@@ -48,3 +48,12 @@ http://www-library.desy.de/preparch/books/vstatmp_engl.pdf
 
 
 [NIST/SEMATECH e-Handbook of Statistical Methods]( http://www.itl.nist.gov/div898/handbook/ )
+
+
+## Statistical Learning - Stanford
+Trevor Hastie, Rob Tibshirani
+**- mooc: ** https://lagunita.stanford.edu/courses/HumanitiesScience/StatLearning/Winter2014/about
+**- video: ** http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/
+**- livres: ** 
+    - http://statweb.stanford.edu/~tibs/ElemStatLearn/
+    - http://www-bcf.usc.edu/~gareth/ISL/
