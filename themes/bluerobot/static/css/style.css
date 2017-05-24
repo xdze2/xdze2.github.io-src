@@ -167,6 +167,7 @@ div.articles-list {
   font-weight: bold;
   font-family: monospace;
   text-decoration: none;
+  margin-right: 1em;
 }
 
 .summary_tag {
@@ -198,13 +199,12 @@ div.articles-list {
   display: inline-block;
   vertical-align: top;
   line-height: 1.1;
-  margin-right: 6px;
 }
 #article header>img {
   margin-right: 6px;
 }
 .article-content {
-  font-size: 104%;
+  font-size: 100%;
   line-height: 1.5;
 }
 
@@ -216,6 +216,7 @@ div.articles-list {
 
   margin-top: .4em;
   margin-bottom: .4em;
+  font-size:94%;
 }
 .prompt, .anchor-link {
   display: none;
