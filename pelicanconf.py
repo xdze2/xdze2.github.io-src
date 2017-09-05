@@ -8,7 +8,8 @@ SITEURL = ''
 
 PATH = 'content'
 STATIC_PATHS = ['physique/images', 'statistiques/images', 'static', 'images',
-                'about/images', 'optimisation/images', 'data/images', 'visualisation/images']
+                'about/images', 'optimisation/images', 'data/images', 'visualisation/images', 
+                'calculs_num/images']
 
 USE_FOLDER_AS_CATEGORY = False
 DISPLAY_PAGES_ON_MENU = False

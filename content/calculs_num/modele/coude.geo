@@ -1,0 +1,11 @@
+Merge "coude.step";
+Physical Surface(8) = {4};
+Physical Surface(9) = {1, 2, 3};
+Physical Surface(10) = {5};
+inlet = DefineNumber[ 8, Name "Parameters/inlet" ];
+tube = DefineNumber[ 9, Name "Parameters/tube" ];
+inlet = DefineNumber[ 8, Name "Parameters/inlet" ];
+Physical Volume(11) = {1};
+oulet = DefineNumber[ oulet, Name "Parameters/oulet" ];
+outlet = DefineNumber[ 10, Name "Parameters/oulet" ];
+outlet = DefineNumber[ 10, Name "Parameters/outlet" ];
