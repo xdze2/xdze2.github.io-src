@@ -103,16 +103,16 @@ La doc du programme [gmshToFoam](https://openfoamwiki.net/index.php/GmshToFoam) 
 
 Il faut travailler dans le repertoire d'un projet existant. La façon la plus simple est de copier un cas d'exemple. 
 
-        ls $FOAM_TUTORIALS/incompressible/
+        $ ls $FOAM_TUTORIALS/incompressible/
 
 
 En partant de l'exemple `cavity` ([tuto](https://cfd.direct/openfoam/user-guide/cavity/#x5-40002.1)):
 
-        cp -r $FOAM_TUTORIALS/incompressible/icoFoam/cavity/cavity . 
+        $ cp -r $FOAM_TUTORIALS/incompressible/icoFoam/cavity/cavity . 
         
 Le fichier de maillage est ensuite copier à la racine du répertoire du projet. Puis le programme de conversion est exécuté, avec en paramètre le fichier du maillage :      
 
-        gmshToFoam coude.msh
+        $ gmshToFoam coude.msh
 
 La correspondance entre les 'physical groups' et les patchs de OpenFoam est rendue par `gmshToFoam`:
 
@@ -131,9 +131,18 @@ Les valeurs physiques correspondantes aux conditions aux limites sont spécifié
 
 Le logiciel paraview permet d'afficher le maillage:
 
-        paraFoam
+        $ paraFoam
 
 <img src="./calculs_num/images/paraFoam_mesh.png" alt="paraFoam"  width='70%' />
+
+On peut vérifier le maillage:
+
+        $ checkMesh
+
+
+Et aussi changer son échelle (par exemple de millimètre à mètre) ([doc.](https://openfoamwiki.net/index.php/TransformPoints)):
+
+        $ transformPoints -scale '(1e-3 1e-3 1e-3)'
 
 
 # la suite
