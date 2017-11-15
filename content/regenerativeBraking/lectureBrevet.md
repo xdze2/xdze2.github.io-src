@@ -48,6 +48,22 @@ Le brevet de [Mark R. Brent et Jim M. Papadopoulos (1986)](https://www.google.co
 
 Voir la légende [ici](regenerativeBraking/images/figures_legende.txt).
 
+
+### Schéma cinématique
+Pour mieux comprendre le fonctionement du mécanisme un schéma aide. 
+
+<img src="regenerativeBraking/images/sch_cinematique_brevet.png" alt="cinematique" width='800px' />
+ 
+Il y a deux commandes qui bloque ou libère chacune un embrayage (ou mécanisme de bloquage). Le système à donc théoriquement 4 états possibles. 
+
+* **frein bloqué seul**: la couronne est entrainée par la roue. L'engrennage soleil tourne alors dans le sens inverse. Ceci emagasine de l'énergie dans le ressort. 
+* **'Release' bloqué seul**: Alors le ressort est en prise direct avec la roue. L'énergie du ressort est transmise à la roue qui tourne vers l'avant. à noter qu'il n'y a pas de réduction de vitesse de rotation possible ici. 
+ 
+* **tout libre**: La roue n'entraine aucune engrenage... rien ne se passe. 
+* **tout bloqué**: Le mécanisme est bloqué... problème.
+
+_Rq:_ un cliquet est utilisé dans le brevet. 
+
 ### Ce qui est bien:
 * Actionné par le frein (friction)... mais est-ce réelement bien ?
 * _Planet Gear_: le mécanisme permet l'inversion du sens de rotation entre la charge et la décharge relativement simplement. 
