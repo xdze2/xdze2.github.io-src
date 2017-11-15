@@ -1,0 +1,46 @@
+
+        11: brake lever
+        12: brake cable ?
+
+        13: release lever
+        14: release cable
+
+        15: elastic material (rubber)
+        16a, b: guide rollers
+        17: connecting cable
+        18a, b: limit stop
+
+        21: toothed ring gear
+        22: brake pad
+        23: wheel hub
+
+        24: ratchets
+        25: pawls (cliquet)
+        26: planet gears
+        27: planet gear axles
+
+        28: wrapping drum
+        29: brake/reaction post
+
+        31: ring alignement disc
+        32: brake pad carrier
+
+        33: reaction plate clamp
+        34: bearing race
+
+        210: brake cable housing
+        211: reaction arm
+        212: brake cable
+
+        213: seatstay
+        214: chainstay
+
+        215: reaction bolt, bearing race alignement bolt
+
+        216: planet alignement disc
+        217: toothed sun gear
+        218: axle
+
+        219: braking lever
+        220: clutch mechanism
+
