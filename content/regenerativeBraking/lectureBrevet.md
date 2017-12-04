@@ -4,6 +4,8 @@ Tags: physique, vélo
 Author: xdze2
 Summary: Comment procurer une aide au démarrage en vélo qui utilise l'énergie à priori perdu lors du freinage ?
 Date: 2017-11-14 13:00
+Image: regenerativeBraking/images/thumbnail.jpg
+
 
 # Regenerative braking system for bicycle
 
