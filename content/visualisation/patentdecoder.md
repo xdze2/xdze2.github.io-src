@@ -2,7 +2,7 @@ Title: Patent decoder
 Slug: patentdecoderproject
 Tags: visualisation, projet, python, brevet
 Author: xdze2
-Summary: Interface web pour parcourir les brevets et voir les figures.
+Summary: Script d'extraction des données et interface web pour parcourir les brevets et voir les figures, avec leur légende. 
 Date: 2017-12-01 02:00
 Image: visualisation/images/patentUS20020092170-tn.png
 
@@ -14,7 +14,7 @@ Voir en action avec les brevets du [coupe-ongles](https://xdze2.github.io/nailcl
 
 # Patent Decoder
 
-Projet d'interface pour visualiser des brevets avec _un point de vue technique_, c'est-à-dire avec les figures, la légende et le texte de description technique. Pas de revendications, date de priorité... etc
+Projet d'interface pour visualiser des brevets avec _un point de vue technique_, c'est-à-dire avec les figures, la légende et le texte de description technique. Pas de revendications ou de date de priorité... etc
 
 
 Les données sont obtenues entre autres avec [google BigQuery et ses Patents Public Data](https://console.cloud.google.com/launcher/partners/patents-public-data). L'interface web est réalisée avec Flask, puis le site statique est obtenu avec Flask-Frozen.
