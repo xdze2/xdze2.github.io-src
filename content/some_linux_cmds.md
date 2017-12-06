@@ -46,7 +46,14 @@ Avec python3 :
     $ python3 -m http.server 8850    
 
 
+# Git
 
+Modifier le message du commit, avant le push :
+
+    $ git commit --amend -m 'nouveau message'
+    
+    
+    
 # Linux
     
 ### Générer un mot de passe aléatoire
