@@ -65,8 +65,10 @@ h1, h2, h3, h4, h5, h6 {
     padding:1px;
     font-family: monospace;
 }
+#menu li {
+    padding-bottom: 1px;
+}
 #menu li.active a {
-    color:red;
     font-weight: bold;
 }
 
