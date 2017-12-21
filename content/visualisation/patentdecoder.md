@@ -25,7 +25,7 @@ Un des gros aspects du projet est d'**extraire les images** depuis les PDF des b
 <img src='https://raw.githubusercontent.com/xdze2/patent_decoder/master/illu_algoextractimg.png'  width="300"  alt='étape extraction figure'/>
 
 
-**L'extraction de la légende** se base sur une série d'expressions régulières cherchant les numéros isolés, puis un choix est fait pour sélectionné un unique label : pour chaque mot en partant de la fin, est selectionné celui le plus présent, si ex aequo alors arrêt.
+**L'extraction de la légende** se base sur une série d'expressions régulières cherchant les numéros isolés, puis un choix est fait pour sélectionner un unique label : pour chaque mot en partant de la fin, est selectionné celui le plus présent; si ex aequo alors arrêt.
 
 
 
