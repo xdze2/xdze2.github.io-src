@@ -1,4 +1,4 @@
-Title: segmented
+Title: segmented linear regression
 Slug: breakpoints
 Tags: statistiques, 
 Author: xdze2
