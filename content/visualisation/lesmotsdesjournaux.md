@@ -4,11 +4,9 @@ Tags: javascript, visualisation, projet, data
 Author: xdze2
 Summary: n-gram viewer pour explorer l'actualité du passé
 Date: 2017-05-20 11:00
-Image: visualisation/images/thumb-LMdJ.png
+Image: visualisation/images/thumb-LMdJx.png
 
 
-<img src='visualisation/images/Screenshot-LMdJx01.png' alt='screenshot 1'
-            style="width:800px;" />
 
 **Projet de [n-gram-viewer](https://books.google.com/ngrams) permettant d'explorer l'actualité du passé. **
 
@@ -19,7 +17,8 @@ time series graph avec [metricsgraphicsjs](http://metricsgraphicsjs.org/), dynam
 [marcopolo](http://jstayton.github.io/jquery-marcopolo/), jQuery
 - Les librairies python utilisées sont, entres autres, [RSS feedparser](https://pythonhosted.org/feedparser/), segmentation des mots avec [ELeVE](https://github.com/kodexlab/eleve), data base SqLite3
 
-
+<img src='visualisation/images/Screenshot-LMdJx01.png' alt='screenshot 1'
+            style="width:800px;" />
            
 <img src='visualisation/images/Screenshot-LMdJx03.png' alt='screenshot 3'
     style="width:800px;" />
