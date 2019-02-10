@@ -44,7 +44,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = False
 
 MENUTAGS = (
-   'projet', 'physique', 'modélisation', 'statistiques', 'algorithme', 'visualisation'
+   'projet', 'physique', 'modelisation', 'statistiques', 'algorithme', 'visualisation'
 )
 MENUITEMS = (
     # ('all', '/'),
