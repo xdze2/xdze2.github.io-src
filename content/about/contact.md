@@ -8,7 +8,7 @@ Date: 2017-01-01 04:00
 ![theway]({filename}/about/images/contact.jpg)
 
 
-Bonjour, voici le lieu où je garde trace de mes divers projets perso et explorations mathématiques. J'ai une formation en physique, sciences des matériaux et mécanique du solide. Je code beaucoup en Python, un peu en Javascript et plus récemment avec Julia. Ici en particulier je m'intéresse à la modélisation, au traitement, l'analyse et la visualisation de données.
+Bonjour, voici le lieu où je garde trace de mes divers projets perso et explorations mathématiques. J'ai une formation en physique, science des matériaux et mécanique du solide. Je code beaucoup en Python, un peu en Javascript et plus récemment avec Julia. Ici en particulier je m'intéresse à la modélisation, au traitement, l'analyse et la visualisation de données.
 
 * xdze2.me at gmail point com  
 * [Twitter](https://twitter.com/xdze2)  
